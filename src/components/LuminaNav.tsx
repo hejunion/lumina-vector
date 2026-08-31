@@ -6,6 +6,7 @@ const links = [
   ["Ecosystem", "#ecosystem"],
   ["Trajectory", "#trajectory"],
   ["Touchdown", "#touchdown"],
+  ["Aegis", "#aegis"],
 ];
 
 export function LuminaNav() {

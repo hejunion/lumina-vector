@@ -1,4 +1,5 @@
-import { ArrowDown, ArrowUpRight, Atom, Eye, Gauge, Move3d, Radio, Shield, Sparkles, Users } from "lucide-react";
+import { ArrowDown, ArrowUpRight, Atom, Eye, Gauge, Move3d, Radio, Shield, Sparkles } from "lucide-react";
+import { AegisArray } from "@/components/AegisArray";
 import { DeckExplorer } from "@/components/DeckExplorer";
 import { LandingSequence } from "@/components/LandingSequence";
 import { LuminaNav } from "@/components/LuminaNav";
@@ -111,6 +112,7 @@ export default function Index() {
       </section>
 
       <LandingSequence />
+      <AegisArray />
 
       <section className="border-t border-white/10 bg-[#e8edf5] text-[#0a1726]">
         <div className="section-shell grid gap-12 py-20 lg:grid-cols-[1fr_auto] lg:items-end lg:py-28">

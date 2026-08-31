@@ -4,8 +4,8 @@ import { ChevronRight } from "lucide-react";
 const stages = [
   { time: "T−32 min", title: "Orbital insertion", altitude: "50 km", detail: "Lumina rotates 180 degrees. Twin Helion-4 drives execute a precision retro-burn, capturing the vessel in low polar orbit while thermal plating radiates the load." },
   { time: "T−08 min", title: "Descent transition", altitude: "12 km", detail: "The airframe enters vertical attitude. Metamorphic wings fold inward to protect sensory arrays as cold-gas RCS maintains exact pitch, yaw, and roll." },
-  { time: "T−42 sec", title: "Gimbal handover", altitude: "500 m", detail: "Main drives disengage. Four articulated plasma-gimbal thrusters take control as the belly bifurcates and kinetic-dampening struts extend." },
-  { time: "T+00", title: "Surface secure", altitude: "0 m", detail: "Electromagnetic anchor pads lock to basaltic bedrock. A pressurized silver ramp deploys from the lower airlock with minimal regolith disturbance." },
+  { time: "T−42 sec", title: "Gimbal handover", altitude: "500 m", detail: "Main drives disengage. Four articulated plasma-gimbal thrusters align with the Aegis kinetic energy diffuser as the belly bifurcates and landing struts extend." },
+  { time: "T+00", title: "Surface secure", altitude: "0 m", detail: "Electromagnetic anchor pads lock into ferrous strike plates. Electrodynamic shields clear residual dust before the pressurized habitat tunnel mates with Lumina’s ramp." },
 ];
 
 export function LandingSequence() {
